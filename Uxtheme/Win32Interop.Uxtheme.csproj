@@ -6,12 +6,14 @@
     <Configurations>Debug;Documentation;Release</Configurations>
     <AssemblyTitle>Win32Interop.Uxtheme</AssemblyTitle>
     <Description>Interop methods, structs, and enums for uxtheme.dll</Description>
-    <Company>Luke Stratman</Company>
+    <Company>Shane Clark</Company>
     <Product>Win32Interop.Uxtheme</Product>
-    <Copyright>Copyright © 2013</Copyright>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
+    <Copyright>Copyright © 2025</Copyright>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
     <Platforms>AnyCPU;x64</Platforms>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Gdi32\Win32Interop.Gdi32.csproj" />
