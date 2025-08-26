@@ -11,6 +11,7 @@
     <Copyright>Copyright © 2013</Copyright>
     <AssemblyVersion>1.0.1</AssemblyVersion>
     <FileVersion>1.0.1</FileVersion>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Gdi32\Win32Interop.Gdi32.csproj" />
