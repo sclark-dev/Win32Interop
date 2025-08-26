@@ -1,5 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32Interop.User32", "User32\Win32Interop.User32.csproj", "{1C09DA92-5492-4022-A090-961076A41185}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32Interop.Kernel32", "Kernel32\Win32Interop.Kernel32.csproj", "{C50EB086-0E96-4D7F-9C23-E7632ABC46AB}"
@@ -12,9 +14,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32Interop.Dwmapi", "Dwma
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SystemHookCore", "SystemHookCore\SystemHookCore.vcxproj", "{A558485A-58F7-4748-A0BE-EE1BB01732F5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReSharper Settings", "ReSharper Settings", "{CAA7C6FB-9420-4D76-AC05-19F3D7DEDC84}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
-		Win32Interop.sln.DotSettings = Win32Interop.sln.DotSettings
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Global
@@ -123,5 +125,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34D0CA0D-E9C7-4C8F-8B1D-50A3CEF3C8C0}
 	EndGlobalSection
 EndGlobal

@@ -1,11 +1,7 @@
-﻿// ReSharper disable CheckNamespace
-
-using System;
+﻿using System;
 
 namespace Win32Interop.Enums
-// ReSharper restore CheckNamespace
 {
-    // ReSharper disable InconsistentNaming
     public enum SECURITY_IMPERSONATION_LEVEL
     {
         SecurityAnonymous,
